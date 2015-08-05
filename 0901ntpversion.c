@@ -120,7 +120,7 @@ void setup()
         W5100.setRetransmissionCount(1);
 
 	Udp.begin(localPort);
-	setTime(9,0,0,1,1,11); 
+	setTime(18,0,0,1,1,11); 
 	if(retrydhcp >=2)
 	{
 //    Serial.println("Fail to DHCP , No network mode");
